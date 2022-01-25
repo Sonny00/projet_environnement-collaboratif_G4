@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  php:
+    image: php:8.1.2-apache
+
+  db:
+    image: postgres:9.6.24-alpine3.15
+
+  adminer:
+    image: adminer:4.8.1
